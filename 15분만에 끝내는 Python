@@ -1,0 +1,323 @@
+변수 타입 조건문 함수
+
+a ="안녕하세요~"
+b =2
+c =3
+
+print(a)
+print(b)
+print(c)
+
+숫자 문자 불리안
+a =1
+b =2
+c =3.1
+
+print(a+b)
+print(b-c)
+print(c * a)
+print(c / a)
+print(c ** a)
+print(c % a)
+
+
+
+a ="1"
+b ='2'
+c ="""
+3.1
+"""
+print(a)
+print(b)
+print(c)
+
+
+a ="안녕"
+b ='2'
+c ="""
+3.1
+"""
+print(a)
+print(b)
+print(c)
+
+
+
+
+
+a ="안녕"
+b ='2'
+c ="""
+3.1
+"""
+print(a +b)
+print(b + c)
+print(c + a)
+
+
+
+
+a ="안녕"
+b =2
+c ="""
+3.1
+"""
+print(a +str(b))
+print(str(b) + c)
+print(c + a)
+
+
+True
+False
+
+
+if 2 > 1:
+  print("2가 1보다 커요")
+
+if 2 > 11:
+  print("2가 1보다 커요")
+
+if not 2 > 11:
+  print("2가 1보다 커요")
+
+
+if 2 > 11 and 2>1:
+  print("2가 1보다 커요")
+
+
+x =2 
+if x>1:
+  print("2가 1보다 커요")
+
+
+x =2 
+if x>5:
+  print("2가 1보다 커요")
+
+
+x =2 
+if x>5:
+  print("2가 1보다 커요")
+else: 
+  print("안녕하세요") 
+
+
+
+x =2 
+if x>5:
+  print("2가 1보다 커요")
+elif x ==2:
+  print("x는 2입니다.")  
+else: 
+  print("안녕하세요") 
+
+
+
+
+x =12 
+if x>5:
+  print("2가 1보다 커요")
+elif x ==2:
+  print("x는 2입니다.")  
+else: 
+  print("안녕하세요") 
+
+x =1 
+if x>5:
+  print("2가 1보다 커요")
+elif x ==2:
+  print("x는 2입니다.")  
+else: 
+  print("안녕하세요") 
+
+
+
+def cal1():
+
+ print("2가 1보다 커요")
+ print("x는 2입니다.")  
+ print("안녕하세요") 
+
+cal1()
+
+
+def cal1():
+ 
+  print("2가 1보다 커요")
+  print("x는 2입니다.")  
+  print("안녕하세요") 
+
+cal1()
+cal1()
+
+
+def cal1(a,b):
+ 
+  print(int(a),"가 1보다 커요")
+  print(int(b), "는 2입니다.")  
+  print("안녕하세요") 
+
+cal1(1,2)
+cal1(3,4)
+
+
+반복문 ( for & while , break, continue)
+
+def cal1(a,b):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요") 
+
+cal1(1,2)
+cal1(3,4)
+
+for z in range(7):
+  cal1(1,2)
+  print(z)
+
+
+
+def cal1(a,b):
+ 
+  print(int(a),"가 1보다 커요")
+  print(int(b), "는 2입니다.")  
+  print("안녕하세요") 
+
+cal1(1,2)
+cal1(3,4)
+
+z = 0
+while z <5 :
+  cal1(1,2)
+  print(z)
+  z= z+1
+
+
+def cal1(a,b):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요") 
+
+cal1(1,2)
+cal1(3,4)
+
+z = 0
+while z <5 :
+  cal1(1,2)
+  print(z)
+  z= z+1
+  if z >3:
+   break
+
+
+
+def cal1(a,b):
+ 
+  print(int(a),"가 1보다 커요")
+  print(int(b), "는 2입니다.")  
+  print("안녕하세요") 
+
+cal1(1,2)
+cal1(3,4)
+
+z = 0
+while z <5 :
+  cal1(1,2)
+  print(z)
+  z= z+1
+  continue
+  if z >3:
+   break
+
+
+def cal1(a,b):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요") 
+
+cal1(1,2)
+cal1(3,4)
+
+z = 0
+while z <5 :
+  cal1(1,2)
+  print(z)
+  z= z+1
+  if z == 1:
+   continue
+  if z >3:
+   break
+
+자료구조 (리스트, 튜플, 딕셔너리)
+
+x =["안녕",1,2,3]
+def cal1(a,b,x):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요",x) 
+
+
+cal1(1,2,x)
+cal1(3,4,x)
+
+
+x =["안녕",1,2,3]
+def cal1(a,b,x):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요",x) 
+
+cal1(1,2,x)
+cal1(3,4,x)
+
+
+
+x =("안녕",1,2,3)
+def cal1(a,b,x):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요",x) 
+
+cal1(1,2,x)
+cal1(3,4,x)
+
+
+
+x ={"안녕",1,2,3}
+def cal1(a,b,x):
+  
+  print(int(a),"가 1보다 커요")
+  print(int(b),"는 2입니다.")  
+  print("안녕하세요",x) 
+
+cal1(1,2,x)
+cal1(3,4,x)
+
+
+
+class School:
+
+ def cal1(self):
+   print("안녕하세요") 
+
+p = School()
+p.cal1()
+
+
+클래스, 오브 젝트
+
+class School:
+ x ={"안녕",1,2,3}
+ def cal1(self):
+  
+  
+  print("안녕하세요",self.x) 
+
+p = School()
+p.cal1()
